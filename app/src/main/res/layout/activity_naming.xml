@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NamingActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        android:layout_gravity="center" android:gravity="center"
+        >
+
+        <TextView
+            style="@style/name_cell_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/tvLetter0"/>
+
+        <TextView
+            style="@style/name_cell_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/tvLetter1"/>
+
+        <TextView
+            style="@style/name_cell_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/tvLetter2"/>
+
+        <TextView
+            style="@style/name_cell_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/tvLetter3"/>
+
+        <TextView
+            style="@style/name_cell_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/tvLetter4"/>
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <TextView
+            style="@style/name_base_style"
+            android:id="@+id/tvBase0"
+            android:background="@color/colorBlack"
+            />
+
+        <TextView
+            style="@style/name_base_style"
+            android:id="@+id/tvBase1"
+            android:background="@color/colorBlack"
+            />
+
+        <TextView
+            style="@style/name_base_style"
+            android:id="@+id/tvBase2"
+            android:background="@color/colorBlack"
+            />
+
+        <TextView
+            style="@style/name_base_style"
+            android:id="@+id/tvBase3"
+            android:background="@color/colorBlack"
+            />
+
+        <TextView
+            style="@style/name_base_style"
+            android:id="@+id/tvBase4"
+            android:background="@color/colorBlack"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

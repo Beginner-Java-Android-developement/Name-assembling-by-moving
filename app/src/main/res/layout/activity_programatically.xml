@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#aba"
+    tools:context=".ProgramaticallyActivity">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ibRollbackId"
+        android:src="@mipmap/right_button"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        style="@style/name_base_style"
+        android:background="@color/colorBlack"
+        android:id="@+id/tvUp0"
+        />
+
+
+    <TextView
+        style="@style/name_base_style"
+        android:background="@color/colorBlack"
+        android:id="@+id/tvUp1"
+        />
+
+
+    <TextView
+        style="@style/name_base_style"
+        android:background="@color/colorBlack"
+        android:id="@+id/tvUp2"
+        />
+
+    <TextView
+        style="@style/name_base_style"
+        android:background="@color/colorBlack"
+        android:id="@+id/tvUp3"
+        />
+
+    <TextView
+        style="@style/name_base_style"
+        android:background="@color/colorBlack"
+        android:id="@+id/tvUp4"
+        />
+
+
+    <SeekBar
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#40C4FF"
+        android:id="@+id/sb"/>
+
+
+    <TextView
+        style="@style/name_base_style"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvDown0"
+        />
+
+    <TextView
+        style="@style/name_base_style"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvDown1"
+        />
+
+
+    <TextView
+        style="@style/name_base_style"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvDown2"
+        />
+
+    <TextView
+        style="@style/name_base_style"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvDown3"
+        />
+
+    <TextView
+        style="@style/name_base_style"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvDown4"
+        />
+
+</LinearLayout>
